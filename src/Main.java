@@ -1,9 +1,9 @@
 public class Main {
     public static void main (String[] args) {
 
-        BonusM BonusM = new BonusM();
+        BonusMilesService service = new BonusMilesService();
         int price = 20000;
-        int miles = BonusM.calculate(price);
+        int miles = service.calculate(price);
         System.out.println(miles);
 
     }
